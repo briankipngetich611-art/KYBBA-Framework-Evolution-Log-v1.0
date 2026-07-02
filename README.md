@@ -1,120 +1,113 @@
 # KYBBA-Framework-Evolution-Log-v1.0
 A chronological record of the architectural decisions, discoveries, refinements, validations, and evolution of the KYBBA Framework during its development.
+
+
 KYBBA Framework Evolution Log
 
 Overview
 
-The KYBBA Framework Evolution Log is the official documentation repository for the development history of the KYBBA Framework.
+The KYBBA Framework Evolution Log is the official engineering history of the KYBBA Framework.
 
-Rather than serving as the framework itself, this repository records how the framework evolves over time. It provides a structured and transparent history of architectural decisions, design changes, validation activities, version progression, and lessons learned throughout the framework's development.
+Unlike the main framework repository, which documents the framework itself, this repository documents how the framework evolves. It preserves the reasoning, architectural discoveries, design decisions, validations, refinements, and major milestones that shape the framework throughout its development.
 
-The goal is to create a permanent and organized record that allows anyone to understand not only the current state of the framework, but also the reasoning and evolution that led to it.
+The purpose of this repository is to ensure that every significant architectural decision remains transparent, traceable, and supported by documented reasoning.
 
 ---
 
-Repository Objectives
+Purpose
 
-This repository is designed to:
+This repository exists to record the complete evolution of the KYBBA Framework by documenting:
 
-- Document the evolution of the KYBBA Framework.
-- Record architectural and structural changes.
-- Preserve important design decisions and their rationale.
-- Maintain version history and release milestones.
-- Track validation activities and framework refinement.
-- Capture design principles discovered during development.
-- Provide a historical timeline of the framework's growth.
-- Support future maintenance and continuous improvement.
+- Architectural questions explored during development.
+- Alternative approaches that were evaluated.
+- Design decisions and the reasoning behind them.
+- Architectural Insights discovered throughout development.
+- Emergent Patterns identified through structured evaluation.
+- Design Principles established during framework construction.
+- Candidate Principles awaiting future validation.
+- Validation History as Candidate Principles become Confirmed Principles.
+- Evolution Cycles that capture major development milestones.
+- Framework Version milestones achieved after multiple validated Evolution Cycles.
 
 ---
 
 Repository Structure
 
-docs/
-    Repository documentation and development methodology.
-
-evolution/
-    Records of each Evolution Cycle.
-
-versions/
-    Framework version snapshots and release documentation.
-
-validation/
-    Validation history, reviews, and stress testing records.
-
-principles/
-    Architectural and design principles discovered during development.
-
-history/
-    Timeline, milestones, and historical decision records.
-
-assets/
-    Diagrams, figures, and supporting visual resources.
+KYBBA Framework Evolution Log
+│
+├── README.md
+├── Glossary.md
+├── Evolution Timeline.md
+│
+├── Evolution Cycles
+│     ├── Evolution Cycle 1
+│     ├── Evolution Cycle 2
+│     └── ...
+│
+├── Framework Versions
+│
+└── Validation History
 
 ---
 
-Documentation Philosophy
+Development Philosophy
 
-The KYBBA Framework is developed through continuous observation, analysis, validation, and refinement.
+The KYBBA Framework is developed through structured discovery rather than predetermined assumptions.
 
-Instead of viewing development as a sequence of isolated updates, this repository treats each improvement as part of an ongoing evolutionary process. Every significant change is documented together with its motivation, expected impact, validation status, and relationship to previous work.
+Architectural decisions are not accepted because they appear reasonable. They are established through systematic evaluation, comparison, refinement, and validation across successive Evolution Cycles.
 
-This approach promotes transparency, traceability, and long-term maintainability.
+Every significant decision recorded in this repository should be:
 
----
-
-Version Management
-
-Framework versions are documented independently from Evolution Cycles.
-
-- Evolution Cycles record the progression of development work.
-- Framework Versions represent stable snapshots of the framework after one or more completed Evolution Cycles.
-
-This distinction preserves both the development process and the resulting framework states.
+- Traceable
+- Evidence-based
+- Reviewable
+- Open to future refinement when supported by new architectural evidence
 
 ---
 
-Validation
+Evolution Methodology
 
-Validation is an essential part of the framework's development.
+Framework development progresses through Evolution Cycles.
 
-Validation records document:
+Each Evolution Cycle focuses on a specific architectural or design objective and concludes with documented:
 
-- architectural reviews,
-- structural consistency checks,
-- framework refinement,
-- design verification,
-- stress testing,
-- and lessons learned.
+- Framework Evolution Log (FEL) entries
+- Major discoveries
+- Architectural Insights
+- Emergent Patterns
+- Design Principles
+- Candidate Principles
+- Evolution summary
 
-These records provide confidence in the framework's integrity as it evolves.
-
----
-
-Design Principles
-
-Throughout development, new architectural and methodological principles may emerge.
-
-Rather than allowing these discoveries to remain implicit, they are documented separately so they can guide future development and maintain consistency across the framework.
+Multiple completed and validated Evolution Cycles collectively contribute toward an official Framework Version.
 
 ---
 
-Repository Status
+Current Status
 
-Status: Active Development
+The framework is currently under active development.
 
-The KYBBA Framework continues to evolve. Documentation within this repository is updated as new Evolution Cycles are completed and validated.
+The latest completed milestone is:
 
----
+Evolution Cycle 1 — Structural Roles
 
-License
-
-The applicable license for this repository is provided in the "LICENSE" file.
+Future Evolution Cycles will continue expanding the framework while preserving a complete history of every major architectural decision.
 
 ---
 
-Maintainer
+Repository Scope
 
-Maintained by the creator of the KYBBA Framework.
+This repository documents how the framework evolves.
 
-This repository serves as the official historical record of the framework's evolution.
+It is not intended to replace the main KYBBA Framework repository, which contains the framework's architecture, models, and implementation.
 
+Together, both repositories provide a complete record of the framework:
+
+- KYBBA Framework → The framework itself.
+- KYBBA Framework Evolution Log → The documented history of how the framework became what it is.
+
+---
+
+Guiding Principle
+
+«"The value of a framework lies not only in its final structure, but also in the documented reasoning that led to that structure. Every significant architectural decision should be traceable, reviewable, and open to refinement as new evidence emerges."»
